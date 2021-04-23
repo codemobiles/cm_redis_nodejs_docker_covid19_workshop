@@ -1,0 +1,9 @@
+- https://try.redis.io/
+- intall vscode, nodejs, docker
+- docker pull redis
+- docker run --name cm-redis -d -p 6379:6379 redis
+- docker ps
+- docker exec -it 9d6db1ceab0b sh
+- redis-cli
+- npm init -y
+- npm i express axios redis
